@@ -20,14 +20,13 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={task}
-              title="Task Manager"
-              description="TaskManager is an Object Oriented Programming web app to help users to organise tasks based on their task status. This project has used JavaScript localStorage, that means user data has been saved on the browser even after refreshing the page."
-              ghLink="https://github.com/sophialai123/Task-Planner"
-              demoLink='https://sophialai123.github.io/TaskManager/'
+              imgPath={ravenous}
+              title="Ravenous React App"
+              description="Ravenous is Yelp API React App allow users to search according to Best Match, Highest Rated and Most Reviewed on the top of search bar. Simply enter the food or business name and the location, and then press the Let's go button. It will take a few seconds to load the data."
+              ghLink="https://github.com/sophialai123/ravenous-react-app"
+              demoLink="https://ravenous-app-react.netlify.app/"
             />
           </Col>
-
           <Col md={6} className="project-card">
             <ProjectCard
               imgPath={filmFinder}
@@ -37,7 +36,6 @@ function Projects() {
               demoLink="https://sophialai123.github.io/film-finder/"
             />
           </Col>
-
           <Col md={6} className="project-card">
             <ProjectCard
               imgPath={coffeeWorld}
@@ -47,14 +45,13 @@ function Projects() {
               demoLink="https://coffee-capsules-world.netlify.app/"
             />
           </Col>
-
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={ravenous}
-              title="Ravenous React App"
-              description="Ravenous is Yelp API React App allow users to search according to Best Match, Highest Rated and Most Reviewed on the top of search bar. Simply enter the food or business name and the location, and then press the Let's go button. It will take a few seconds to load the data."
-              ghLink="https://github.com/sophialai123/ravenous-react-app"
-              demoLink="https://ravenous-app-react.netlify.app/"
+              imgPath={task}
+              title="Task Manager"
+              description="TaskManager is an Object Oriented Programming web app to help users to organise tasks based on their task status. This project has used JavaScript localStorage, that means user data has been saved on the browser even after refreshing the page. Tasks can be edited, delelted and also changed base on task status."
+              ghLink="https://github.com/sophialai123/Task-Planner"
+              demoLink='https://sophialai123.github.io/TaskManager/'
             />
           </Col>
         </Row>
