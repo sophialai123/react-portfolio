@@ -9,11 +9,11 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Title style={{ textAlign: "center" }}>{props.title}</Card.Title>
+        <Card.Text style={{ textAlign: "justify" }} className='mt-3' >
           {props.description}
         </Card.Text>
-        <div className="buttonlinks">
+        <div className="buttonlinks mt-4" >
           <Button variant="primary" href={props.ghLink} target="_blank">
             <BsGithub /> &nbsp;
             {"GitHub"}

@@ -42,7 +42,7 @@ export default function Contact() {
           <Form.Control as="textarea" aria-label="With textarea" placeholder="Enter messages...." />
         </Form.Group>
         <div className="d-grid gap-2">
-          <Button variant="primary" type="submit" className='mb-4' size="lg">
+          <Button variant="primary" type="submit" className='mb-4' size="lg" onClick={() => alert("Thank you for contacting me and I will get back to you soon!")}>
             Submit
           </Button>
         </div>

@@ -494,6 +494,11 @@ button:focus {
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
 
+.project-card-view img {
+  cursor: pointer;
+}
+
+
 .buttonlinks {
   display: flex;
   justify-content: space-around;
