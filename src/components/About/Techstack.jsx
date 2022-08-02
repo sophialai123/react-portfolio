@@ -11,9 +11,6 @@ import {
   DiGit,
   DiMysql
 } from "react-icons/di";
-import {
-  SiPytorch,
-} from "react-icons/si";
 
 function Techstack() {
   return (
