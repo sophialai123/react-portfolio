@@ -10,39 +10,23 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Let Me <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I have just graduated from an intensive full-time bootcamp course at <b className="purple"> Generation Australia </b> delivered in collaboration with  <b className="purple"> Academy Xi. </b>
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple">Javascript and Python. </b>
-              </i>
+              <br /> I have completed an internship for a start-up company that is creating an <b className="purple"> animation series.</b> The series is unique and promotes <b className="purple"> Australian culture,</b> and also promotes <b className="purple"> environmental sustainability.</b>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
+              I am a fast learner, a team player and hard worker. I enjoy identifying and <b className="purple">solving problems</b> and developing solutions. I am willing to learn <b className="purple"> new skills </b> and to take on <b className="purple">new challenges.</b> &nbsp;
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I am passionate about  <b className="purple"> technologies. </b> I am currently undertaking a
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Google UX Design Course.
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>

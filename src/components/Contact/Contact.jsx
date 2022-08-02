@@ -1,11 +1,8 @@
-
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Container, Row, Col } from "react-bootstrap";
 import { MdAttachEmail } from 'react-icons/md';
-
 import { BsMessenger } from 'react-icons/bs'
-
 export default function Contact() {
   return (
     <Container fluid className="contact-section">

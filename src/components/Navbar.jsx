@@ -87,8 +87,6 @@ function NavBar() {
                 <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
-
-
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/sophialai123"
