@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import coffeeWorld from "../../Assets/Projects/coffeeWorld.png";
 import task from '../../Assets/Projects/task.png';
 import filmFinder from '../../Assets/Projects/film-finder.png';
-import ravenous from '../../Assets/Projects/ravenous.png';
+import healthyfood from '../../Assets/Projects/healthyfood.png';
 
 
 
@@ -20,15 +20,6 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={ravenous}
-              title="Ravenous React App"
-              description="Ravenous is Yelp API React App allow users to search according to Best Match, Highest Rated and Most Reviewed on the top of search bar. Simply enter the food or business name and the location, and then press the Let's go button. It will take a few seconds to load the data."
-              ghLink="https://github.com/sophialai123/ravenous-react-app"
-              demoLink="https://ravenous-app-react.netlify.app/"
-            />
-          </Col>
-          <Col md={6} className="project-card">
-            <ProjectCard
               imgPath={filmFinder}
               title="Film Finder"
               description=" Film Finder is TMDb API movie discovery app that will recommend random movies by genre. It allow users to fillter genre at search bar, and then press let's play button to view the result."
@@ -38,9 +29,18 @@ function Projects() {
           </Col>
           <Col md={6} className="project-card">
             <ProjectCard
+              imgPath={healthyfood}
+              title="Super Healthy Shopping Cart"
+              description="Super Healthy Shopping Cart is built using TypeScript React,React Bootstrap and localStorage."
+              ghLink="https://github.com/sophialai123/typeScript-shopping-cart"
+              demoLink="https://super-healthy.netlify.app/"
+            />
+          </Col>
+          <Col md={6} className="project-card">
+            <ProjectCard
               imgPath={coffeeWorld}
               title="Coffee Capsules World"
-              description="Coffee Capsules World React App allows users to enter quantities input and hit add to cart button,users can view the added items by click shopping cart icon at the right top corner."
+              description="Coffee Capsules World React App allows users to enter quantities input and press add to cart button,users can view the added items by click shopping cart icon at the right top corner."
               ghLink="https://github.com/sophialai123/shopping-cart-react"
               demoLink="https://coffee-capsules-world.netlify.app/"
             />

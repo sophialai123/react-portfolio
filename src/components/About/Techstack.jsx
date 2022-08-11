@@ -6,11 +6,12 @@ import {
   DiBootstrap,
   DiJavascript1,
   DiReact,
-  DiNodejs,
   DiPython,
   DiGit,
   DiMysql
 } from "react-icons/di";
+
+import { SiTypescript } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -36,8 +37,8 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        Node.Js
-        <DiNodejs />
+        Typescript
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         Python
