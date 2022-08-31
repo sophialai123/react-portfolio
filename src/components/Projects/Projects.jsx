@@ -50,7 +50,7 @@ function Projects() {
               imgPath={task}
               title="Task Manager"
               description="TaskManager is an Object Oriented Programming web app to help users to organise tasks based on their task status. This project has used JavaScript localStorage, that means user data has been saved on the browser even after refreshing the page. Tasks can be edited, delelted and also changed base on task status."
-              ghLink="https://github.com/sophialai123/Task-Planner"
+              ghLink="https://github.com/sophialai123/TaskManager"
               demoLink='https://sophialai123.github.io/TaskManager/'
             />
           </Col>

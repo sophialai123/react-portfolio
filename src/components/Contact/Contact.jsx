@@ -2,10 +2,12 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Container, Row, Col } from "react-bootstrap";
 import { MdAttachEmail } from 'react-icons/md';
-import { BsMessenger } from 'react-icons/bs'
+import { BsMessenger } from 'react-icons/bs';
+import Particle from '../Particle';
 export default function Contact() {
   return (
     <Container fluid className="contact-section">
+      <Particle />
       <h1 style={{ textAlign: "center" }}>Get In Touch
         <span className="wave" role="img" aria-labelledby="wave">
           🤝

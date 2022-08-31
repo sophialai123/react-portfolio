@@ -4,9 +4,55 @@ import Particles from "react-tsparticles";
 function Particle() {
   return (
     <Particles
+      height="50vh" width='50vw'
+      id="tsparticles"
+      params={{
+        "particles": {
+          "number": {
+            "value": 160,
+            "density": {
+              "enable": false
+            }
+          },
+          "size": {
+            "value": 10,
+            "random": true
+          },
+          "move": {
+            "direction": "bottom",
+            "out_mode": "out"
+          },
+          "line_linked": {
+            "enable": false
+          }
+        },
+        "interactivity": {
+          "events": {
+            "onclick": {
+              "enable": true,
+              "mode": "remove"
+            }
+          },
+          "modes": {
+            "remove": {
+              "particles_nb": 10
+            }
+          }
+        }
+      }} />
+  );
+}
+
+export default Particle;
+
+
+/* <Particles
       id="tsparticles"
       params={{
         particles: {
+          color: {
+            value: "#000000"
+          },
           number: {
             value: 160,
             density: {
@@ -16,11 +62,11 @@ function Particle() {
           },
           line_linked: {
             enable: false,
-            opacity: 0.03,
+            opacity: 1,
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 0.15,
           },
           size: {
             value: 1,
@@ -48,8 +94,4 @@ function Particle() {
         },
         retina_detect: true,
       }}
-    />
-  );
-}
-
-export default Particle;
+    /> */
